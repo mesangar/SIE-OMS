@@ -1,6 +1,6 @@
 # Semantic and Structural Image Segmentation for Prosthetic Vision
 
-Prosthetic vision is being applied to partially recover the retinal stimulation of visually impaired people. However, the phosphenic images produced by the implants have very limited information bandwidth due to the poor resolution and lack of color or contrast. Here we prpose a new visual stimuli called SIE-OMS based on semantic segmentation for indoor scene understanding using visual prosthesis.
+Prosthetic vision is being applied to partially recover the retinal stimulation of visually impaired people. However, the phosphenic images produced by the implants have very limited information bandwidth due to the poor resolution and lack of color or contrast. Here we propose a new visual stimuli called SIE-OMS based on semantic segmentation for indoor scene understanding using visual prosthesis.
 
 <p align="center">
 <img src='pone.0227677.g003.PNG_L.png' width=600>
