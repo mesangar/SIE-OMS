@@ -3,7 +3,7 @@
 Prosthetic vision is being applied to partially recover the retinal stimulation of visually impaired people. However, the phosphenic images produced by the implants have very limited information bandwidth due to the poor resolution and lack of color or contrast. Here we prpose a new visual stimuli called SIE-OMS based on semantic segmentation for indoor scene understanding using visual prosthesis.
 
 <p align="center">
-<img src='pone.0227677.g003.PNG_L.png' width=400>
+<img src='pone.0227677.g003.PNG_L.png' width=600>
 </p>
 
 
@@ -29,7 +29,7 @@ objects.py
 ```
 
 # SIE-OMS
-The final representation of the SIE-OMS method is a superposition of both parts, SIE and OMS, always assuming the edges as background and object masks as foreground. Finally, we use use a simulated phosphene map on a computer screen, but the same activation images could be directly applied to the retinal implant.
+The final representation of the SIE-OMS method is a superposition of both parts, SIE and OMS, always assuming the edges as background and object masks as foreground. Finally, we use a simulated phosphene map on a computer screen, but the same activation images could be directly applied to the retinal implant.
 - To run the code:
 ```
 generate_phosp_image.py
@@ -37,7 +37,7 @@ generate_phosp_image.py
 
 You can find more details in S1 Appendix [Supplementary material] (SIEOMS_supp.pdf).
 
-Check the [Project Page](https://github.com/mesangar/PlosOne) for more details!
+Check the [Project Page](https://github.com/mesangar/SIE-OMS) for more details!
 
 ## Related Research
 Please cite these papers in your publications if it helps your research, ``[Sanchez-Garcia et al.]``.
