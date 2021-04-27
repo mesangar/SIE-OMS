@@ -49,7 +49,7 @@ You can find more details in S1 Appendix (SIEOMS_supp.pdf).
 Check the [Project Page](https://github.com/mesangar/SIE-OMS) for more details!
 
 ## Related Research
-Please cite these papers in your publications if it helps your research, ``[Sanchez-Garcia et al.]``.
+Please cite these papers in your publications if it helps your research, ``[Sanchez-Garcia et al.2019]`` and ``[Sanchez-Garcia et al.2020]``.
 
 ```bibtex
 @inproceedings{sanchez2019indoor,
