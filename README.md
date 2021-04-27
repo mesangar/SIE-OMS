@@ -52,6 +52,14 @@ Check the [Project Page](https://github.com/mesangar/SIE-OMS) for more details!
 Please cite these papers in your publications if it helps your research, ``[Sanchez-Garcia et al.]``.
 
 ```bibtex
+@inproceedings{sanchez2019indoor,
+  title={Indoor Scenes Understanding for Visual Prosthesis with Fully Convolutional Networks.},
+  author={Sanchez-Garcia, Melani and Martinez-Cantin, Ruben and Guerrero, Jos{\'e} Jes{\'u}s},
+  booktitle={VISIGRAPP (5: VISAPP)},
+  pages={218--225},
+  year={2019}
+}
+
 @article{sanchez2020semantic,
   title={Semantic and structural image segmentation for prosthetic vision},
   author={Sanchez-Garcia, Melani and Martinez-Cantin, Ruben and Guerrero, Jose J},
