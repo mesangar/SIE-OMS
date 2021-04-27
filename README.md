@@ -44,7 +44,7 @@ The final representation of the SIE-OMS method is a superposition of both parts,
 generate_phosp_image.py
 ```
 
-You can find more details in S1 Appendix [Supplementary material](https://github.com/mesangar/SIE-OMS/SIEOMS_supp.pdf).
+You can find more details in S1 Appendix (SIEOMS_supp.pdf).
 
 Check the [Project Page](https://github.com/mesangar/SIE-OMS) for more details!
 
