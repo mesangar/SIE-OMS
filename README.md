@@ -15,6 +15,10 @@ generate_schematic_images.m
 # Structural Informative Edges (SIE)
 For Structural Informative Edges, we use the framework of CFL which uses a Fully Convolutional Network (FCN) for pixel classification to estimate probability maps representing the room structural edges. 
 
+<p align="center">
+<img src='pone.0227677.g004.PNG_L.png' width=600>
+</p>
+
 - To run the code:
 ```
 persp_predict.py
@@ -23,6 +27,10 @@ persp_predict.py
 # Object Mask and Silhouettes (OMS)
 For Object Mask and Silhouettes, we perform instance segmentation of objects using the architecture of Mask R-CNN. Using selective search, it identifies a manageable number of bounding-box object region candidates (ROI). Then, it extracts CNN features from each region independently for classification and extract a binary mask in pixel level of the object.
 
+<p align="center">
+<img src='pone.0227677.g006.PNG_L.png' width=600>
+</p>
+
 - To run the code:
 ```
 objects.py
@@ -30,12 +38,13 @@ objects.py
 
 # SIE-OMS
 The final representation of the SIE-OMS method is a superposition of both parts, SIE and OMS, always assuming the edges as background and object masks as foreground. Finally, we use a simulated phosphene map on a computer screen, but the same activation images could be directly applied to the retinal implant.
+
 - To run the code:
 ```
 generate_phosp_image.py
 ```
 
-You can find more details in S1 Appendix [Supplementary material] (SIEOMS_supp.pdf).
+You can find more details in S1 Appendix [Supplementary material] (https://github.com/mesangar/SIE-OMS/SIEOMS_supp.pdf).
 
 Check the [Project Page](https://github.com/mesangar/SIE-OMS) for more details!
 
