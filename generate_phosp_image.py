@@ -5,7 +5,8 @@ import os
 import scipy.misc
 import numpy as np
 
-path_list = glob.glob("/home/melani/Desktop/direct.png")
+# Path of Direct images
+path_list = glob.glob("your path")
 
 for path in sorted(path_list):
     img = Image.open(path).convert('L')
@@ -19,6 +20,6 @@ for path in sorted(path_list):
     dir_path = os.path.split(path)
     filename = os.path.splitext(dir_path[1])
     #result_path = dir_path[0]  + '/phosp/' + filename[0] + filename[1]
-    result_path = "/home/melani/Desktop/direct_phos.png"
+    result_path = "your path"
     #print(result_path)
     scipy.misc.imsave(result_path, img_phosphenes)
