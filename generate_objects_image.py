@@ -17,10 +17,10 @@ MODEL_DIR = os.path.join(ROOT_DIR, "logs")
 # Path to trained weights file
 # Download this file and place in the root of your
 # project (See README file for details)
-COCO_MODEL_PATH = os.path.join(ROOT_DIR, "/home/melani/Desktop/Mask_RCNN/mask_rcnn_coco.h5")
+COCO_MODEL_PATH = os.path.join(ROOT_DIR, "../mask_rcnn_coco.h5")
 
 # Directory of images to run detection on
-IMAGE_DIR = os.path.join(ROOT_DIR, "/home/melani/Desktop/Ba")
+IMAGE_DIR = os.path.join(ROOT_DIR, "your path")
 
 
 class InferenceConfig(coco.CocoConfig):
@@ -89,5 +89,5 @@ for image_path in sorted(os.listdir(IMAGE_DIR)):
 
     New_objects_maxi = New_objects_max * 255
     print(np.amax(New_objects_maxi))
-    fullpath = os.path.join("/home/melani/Desktop/Mask/", 'Mask_' + image_path)
+    fullpath = os.path.join("your path", 'Mask_' + image_path)
     misc.imsave(fullpath, New_objects_max)
