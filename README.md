@@ -13,7 +13,7 @@ generate_schematic_images.py
 ``` 
 
 # Structural Informative Edges (SIE)
-For Structural Informative Edges, we use the framework of [CFL](https://github.com/cfernandezlab/CFL) (Fernandez-Labrador et al.) which uses a Fully Convolutional Network (FCN) for pixel classification to estimate probability maps representing the room structural edges. 
+For Structural Informative Edges, we use the framework of [PanoRoom](https://arxiv.org/pdf/1808.09879.pdf) (Fernandez-Labrador et al.) which uses a Fully Convolutional Network (FCN) for pixel classification to estimate probability maps representing the room structural edges. 
 
 <p align="center">
 <img src='img/pone.0227677.g004.PNG_L.png' width=400>
