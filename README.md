@@ -49,7 +49,7 @@ You can find more details in S1 Appendix [Supplementary material](https://journa
 Check the [Project Page](https://github.com/mesangar/SIE-OMS) for more details!
 
 ## Related Research
-Please cite this paper in your publications if it helps your research, ``[Sanchez-Garcia et al.2020]``.
+Please cite [this paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227677) in your publications if it helps your research, ``[Sanchez-Garcia et al.2020]``.
 
 ```bibtex
 
