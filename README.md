@@ -19,7 +19,7 @@ For Structural Informative Edges, we use the framework of [CFL](https://github.c
 <img src='pone.0227677.g004.PNG_L.png' width=400>
 </p>
 
-- To run the code:
+- To run the code in SIE folder:
 ```
 persp_predict.py
 ```
@@ -33,7 +33,7 @@ For Object Mask and Silhouettes, we perform instance segmentation of objects usi
 
 - To run the code download the [Mask R-CNN](https://github.com/matterport/Mask_RCNN) and run the following file:
 ```
-objects.py
+generate_objects_image.py
 ```
 
 # SIE-OMS
