@@ -77,12 +77,12 @@ if __name__ == '__main__':
     from PIL import Image
     import matplotlib.pyplot as plt
 
-    path = '/home/melani/Desktop/png/480/gray_480.png'
+    path = 'your path'
     img = Image.open(path).convert('L')
     img_array = np.asarray(img) / 255
     np.random.seed(10)
 
-    img_phosphenes = convert_phosphenes(img_array, n_phosphenes_x=32, n_phosphenes_y=32, use_median=True, use_hex_pattern=False, dropout=0.1)
+    img_phosphenes = convert_phosphenes(img_array, n_phosphenes_x=32, n_phosphenes_y=32, use_median=True, use_hex_pattern=False, dropout=0.1)home/melani/Desktop/vv/Office_1.png
 
     plt.imshow(img_array)
     plt.figure()
