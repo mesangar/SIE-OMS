@@ -7,7 +7,7 @@ import glob
 
 # Image path
 
-path_list = glob.glob("/home/melani/Desktop/vv/Office_1.png")
+path_list = glob.glob("your path")
 for path in (path_list):
 
     img_g = Image.open(path).convert('L')
