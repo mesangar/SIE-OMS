@@ -7,8 +7,10 @@ import glob
 from scipy import ndimage, misc
 from scipy.misc import imresize
 
-Edges_path_list = glob.glob("/home/melani/Desktop/a/Edges/Edges_Livingroom_2.png")
-Objects_path_list = glob.glob("/home/melani/Desktop/a/Mask/Mask_Livingroom_2.png")
+# Edges image path
+Edges_path_list = glob.glob("your path")
+# Object image path
+Objects_path_list = glob.glob("your path")
 
 for Edges_path, Objects_path in zip(sorted(Edges_path_list), sorted(Objects_path_list)):
     # Open images
