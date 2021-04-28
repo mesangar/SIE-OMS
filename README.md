@@ -9,7 +9,7 @@ Prosthetic vision is being applied to partially recover the retinal stimulation 
 
 - To run the code:
 ```
-generate_schematic_images.m
+generate_schematic_images.py
 ``` 
 
 # Structural Informative Edges (SIE)
@@ -19,7 +19,7 @@ For Structural Informative Edges, we use the framework of [CFL](https://github.c
 <img src='pone.0227677.g004.PNG_L.png' width=400>
 </p>
 
-- To run the code download the [CFL](https://github.com/cfernandezlab/CFL) and run the following file:
+- To run the code:
 ```
 persp_predict.py
 ```
@@ -44,21 +44,14 @@ The final representation of the SIE-OMS method is a superposition of both parts,
 generate_phosp_image.py
 ```
 
-You can find more details in S1 Appendix (SIEOMS_supp.pdf).
+You can find more details in S1 Appendix [Supplementary material](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227677).
 
 Check the [Project Page](https://github.com/mesangar/SIE-OMS) for more details!
 
 ## Related Research
-Please cite these papers in your publications if it helps your research, ``[Sanchez-Garcia et al.2019]`` and ``[Sanchez-Garcia et al.2020]``.
+Please cite this paper in your publications if it helps your research, ``[Sanchez-Garcia et al.2020]``.
 
 ```bibtex
-@inproceedings{sanchez2019indoor,
-  title={Indoor Scenes Understanding for Visual Prosthesis with Fully Convolutional Networks.},
-  author={Sanchez-Garcia, Melani and Martinez-Cantin, Ruben and Guerrero, Jos{\'e} Jes{\'u}s},
-  booktitle={VISIGRAPP (5: VISAPP)},
-  pages={218--225},
-  year={2019}
-}
 
 @article{sanchez2020semantic,
   title={Semantic and structural image segmentation for prosthetic vision},
